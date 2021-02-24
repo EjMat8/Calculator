@@ -1,0 +1,36 @@
+:root {
+  --color-primar-light: #ffb23c;
+  --color-primary: #ff9e09;
+  --color-primary-dark: #d58100;
+
+  --color-grey-light: #f7f7f7;
+
+  --color-grey-dark-1: #a5a5a5;
+  --color-grey-dark-2: #333333;
+  --color-grey-dark-3: #080808;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kufam", cursive;
+  font-weight: 400;
+  color: var(--color-grey-light);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-primar-light),
+    var(--color-primary-dark)
+  );
+  min-height: 100vh;
+}

@@ -1,0 +1,35 @@
+.btn {
+  font-family: inherit;
+  border: none;
+  background-color: none;
+  font-size: 3rem;
+  padding: 2rem 0;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+
+  &--number {
+    background-color: var(--color-grey-dark-2);
+    color: var(--color-grey-light);
+    &-zero {
+      grid-column: col-start 1 / col-end 2;
+    }
+  }
+
+  &--symbol {
+    background-color: var(--color-primary);
+    color: var(--color-grey-light);
+  }
+
+  &--option {
+    background-color: var(--color-grey-dark-1);
+    color: var(--color-grey-dark-3);
+  }
+}

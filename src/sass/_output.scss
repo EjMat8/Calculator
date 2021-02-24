@@ -1,0 +1,14 @@
+.output {
+  grid-column: full-start/full-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: var(--color-grey-dark-2);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  &__result {
+    display: inline-block;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+  }
+}
